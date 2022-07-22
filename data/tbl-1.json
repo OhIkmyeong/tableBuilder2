@@ -10,32 +10,32 @@
             {"name" : "산구분", "value" : "대지", "id":"test-01"},
             {"name" : "본번", "value" : "0319", "id":"test-01"},
             {"name" : "부번", "value" : "0000", "id":"test-01"},
-            {"name" : "건물명칭 및 번호", "value" : "평책시청사 1동", "id":"test-01"},
+            {"name" : "건물명칭 및 번호", "value" : "땡땡시청사 1동", "id":"test-01"},
 
             {"name" : "산구분", "value" : "대지", "id":"test-02"},
             {"name" : "본번", "value" : "0319", "id":"test-02"},
             {"name" : "부번", "value" : "0000", "id":"test-02"},
-            {"name" : "건물명칭 및 번호", "value" : "평책시청사 1동", "id":"test-02"},
+            {"name" : "건물명칭 및 번호", "value" : "땡땡시청사 1동", "id":"test-02"},
 
             {"name" : "산구분", "value" : "대지", "id":"test-03"},
             {"name" : "본번", "value" : "0319", "id":"test-03"},
             {"name" : "부번", "value" : "0000", "id":"test-03"},
-            {"name" : "건물명칭 및 번호", "value" : "평책시청사 1동", "id":"test-03" },
+            {"name" : "건물명칭 및 번호", "value" : "땡땡시청사 1동", "id":"test-03" },
 
             {"name" : "산구분", "value" : "대지", "id":"test-01"},
             {"name" : "본번", "value" : "0319", "id":"test-01"},
             {"name" : "부번", "value" : "0000", "id":"test-01"},
-            {"name" : "건물명칭 및 번호", "value" : "평책시청사 1동", "id":"test-01"},
+            {"name" : "건물명칭 및 번호", "value" : "땡땡시청사 1동", "id":"test-01"},
 
             {"name" : "산구분", "value" : "대지", "id":"test-02"},
             {"name" : "본번", "value" : "0319", "id":"test-02"},
             {"name" : "부번", "value" : "0000", "id":"test-02"},
-            {"name" : "건물명칭 및 번호", "value" : "평책시청사 1동", "id":"test-02"},
+            {"name" : "건물명칭 및 번호", "value" : "땡땡시청사 1동", "id":"test-02"},
 
             {"name" : "산구분", "value" : "대지", "id":"test-03"},
             {"name" : "본번", "value" : "0319", "id":"test-03"},
             {"name" : "부번", "value" : "0000", "id":"test-03"},
-            {"name" : "건물명칭 및 번호", "value" : "평책시청사 1동", "id":"test-03" }
+            {"name" : "건물명칭 및 번호", "value" : "땡땡시청사 1동", "id":"test-03" }
         ]
     }
 }
