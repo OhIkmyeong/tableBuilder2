@@ -1,0 +1,116 @@
+@charset "utf-8";
+.sect_tbl-read{
+    position:relative;
+    width:100%; overflow:auto;
+    margin-top:var(--gap);}
+
+    /* sect_pageTitle 다음 바로 나올땐 */
+    #sect_pageTitle + .sect_tbl-read{margin-top:var(--gap-half);}
+
+    /* MODAL에서 바로 첫번째 테이블일땐 */
+    .modal .sect_tbl-read:first-child{margin-top:0;}
+
+/* info */
+.info_tbl-read{
+    display:flex;
+    justify-content:space-between; align-items:flex-end;
+    position:relative;
+    width:100%;
+    margin-bottom:var(--gap-small);}
+
+/* title */
+.info_tbl-read .title{
+    font-size:1.15rem; font-weight:300; color:var(--green-3);}
+
+    .info_tbl-read .title::before{
+        content:'*';
+        margin-right:.2em;
+        color:var(--green-1);}
+
+    /* 모달 창 안에선 제목 작아짐 */
+    .modal .info_tbl-read .title{font-size:var(--fSize-3); font-weight:600;}
+    .modal .info_tbl-read .title::before{display:none;}
+
+/* total */
+.tbl-total{
+    position:relative;
+    width:100%;
+    margin-bottom:.5em;
+    font-size:var(--fSize-4); color:var(--f2);}
+
+    .tbl-total strong{color:var(--green-2)}
+
+/* tbl-read */
+.tbl-read{
+    border-right:1px solid var(--green-white-3);}
+
+    .tbl-read :not(thead ~ tbody) tr:first-child th,
+    .tbl-read :not(thead ~ tbody) tr:first-child td{
+        border-top:2px solid var(--green-3);}
+
+.tbl-read caption{display:none;}
+
+.tbl-read th, .tbl-read td{
+    padding:10px 12px;
+    border-bottom:1px solid var(--border);}
+
+.tbl-read th{
+    background:var(--green-white-1);
+    border-left:1px solid var(--green-white-3);
+    text-align:right; font-weight:600; font-size:var(--fSize-4); color:var(--green-3);}
+
+    .tbl-read th.f_green{color:var(--green-1);}
+
+.tbl-read td{
+    border-left:1px solid var(--green-white-3);}
+
+    /* thead */
+    .tbl-read thead{position:sticky;top:0;z-index:1; box-shadow:0 0 .5rem rgba(0,0,0,.1);}
+
+    /* tbody */
+    .tbl-read tbody:empty::after{
+        content:'결과가 없습니다.';display:block;position:absolute; 
+        box-sizing:border-box;
+        width:100%;
+        padding:1em;}
+    
+        /* hover */
+        .tbl-read tbody tr:hover th{filter:brightness(90%);}
+        .tbl-read tbody tr:not(.on):hover td{background:rgba(0,0,0,.03); color:var(--green-2);}
+    
+        /* empty */
+        .tbl-read .empty,
+        .tbl-read tbody:empty::after{
+            background:var(--green-white-1);
+            border:1px solid var(--border);
+            text-align:center; font-size:1.2rem; color:var(--f3);}
+
+    /* 정렬 */
+    .tbl-read th.f_left,.tbl-read td.f_left{text-align:left;}
+    .tbl-read th.f_center,.tbl-read td.f_center{text-align:center;}
+    .tbl-read th.f_right,.tbl-read td.f_right{text-align:right;}
+
+    /* on */
+    .tbl-read tr.on th{background-color:var(--mint-op-1);}
+    .tbl-read tr.on td{background-color:var(--mint-op-2);}
+
+
+/* input */
+.tbl-read input:not([type="radio"],[type="checkbox"]){width:100%;}
+.tbl-read input:not([type="radio"],[type="checkbox"]) + button{margin-left:5px;}
+
+/* fieldset */
+.tbl-read fieldset{border:none;}
+.tbl-read fieldset legend{display:none;}
+
+
+/* [UNIT] */
+[class *= "data-unit-"]::after{
+    margin-left:.25em;
+    font-size:var(--fSize-3);}
+
+    .data-unit-jiga::after {content: '(원/㎡)';}
+    .data-unit-m:after{content:'m';}
+    .data-unit-m2:after{content:'㎡';}
+    .data-unit-percent:after{content:'%';}
+    .data-unit-dasu:after{content:'대';}

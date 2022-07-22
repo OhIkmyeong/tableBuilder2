@@ -1,0 +1,41 @@
+{
+    "main" : {
+        "title" : "건축물대장 목록",
+        "list" : [
+            {"name" : "산구분", "value" : "산구분"},
+            {"name" : "본번", "value" : "본번"},
+            {"name" : "부번", "value" : "부번"},
+            {"name" : "건물명칭 및 번호", "value" : "건물명칭 및 번호"},
+
+            {"name" : "산구분", "value" : "대지", "id":"test-01"},
+            {"name" : "본번", "value" : "0319", "id":"test-01"},
+            {"name" : "부번", "value" : "0000", "id":"test-01"},
+            {"name" : "건물명칭 및 번호", "value" : "평책시청사 1동", "id":"test-01"},
+
+            {"name" : "산구분", "value" : "대지", "id":"test-02"},
+            {"name" : "본번", "value" : "0319", "id":"test-02"},
+            {"name" : "부번", "value" : "0000", "id":"test-02"},
+            {"name" : "건물명칭 및 번호", "value" : "평책시청사 1동", "id":"test-02"},
+
+            {"name" : "산구분", "value" : "대지", "id":"test-03"},
+            {"name" : "본번", "value" : "0319", "id":"test-03"},
+            {"name" : "부번", "value" : "0000", "id":"test-03"},
+            {"name" : "건물명칭 및 번호", "value" : "평책시청사 1동", "id":"test-03" },
+
+            {"name" : "산구분", "value" : "대지", "id":"test-01"},
+            {"name" : "본번", "value" : "0319", "id":"test-01"},
+            {"name" : "부번", "value" : "0000", "id":"test-01"},
+            {"name" : "건물명칭 및 번호", "value" : "평책시청사 1동", "id":"test-01"},
+
+            {"name" : "산구분", "value" : "대지", "id":"test-02"},
+            {"name" : "본번", "value" : "0319", "id":"test-02"},
+            {"name" : "부번", "value" : "0000", "id":"test-02"},
+            {"name" : "건물명칭 및 번호", "value" : "평책시청사 1동", "id":"test-02"},
+
+            {"name" : "산구분", "value" : "대지", "id":"test-03"},
+            {"name" : "본번", "value" : "0319", "id":"test-03"},
+            {"name" : "부번", "value" : "0000", "id":"test-03"},
+            {"name" : "건물명칭 및 번호", "value" : "평책시청사 1동", "id":"test-03" }
+        ]
+    }
+}
